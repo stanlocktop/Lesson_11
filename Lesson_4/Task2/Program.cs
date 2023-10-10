@@ -2,11 +2,9 @@
 {
     static void Main(string[] args)
     {
-        // Створюємо об'єкти класу Автомобіль та Велосипед
-        Car car = new Car("Toyota", 200, 4);
-        Bicycle bicycle = new Bicycle("BMX", 30, "Гірський");
-
-        // Виводимо інформацію про транспортні засоби
+        Console.OutputEncoding = System.Text.Encoding.Unicode;
+        Car car = new Car("Honda", 200, 4);
+        Bicycle bicycle = new Bicycle("Дорожник", 30, "Україна");
         car.Display();
         bicycle.Display();
         Console.ReadKey();
