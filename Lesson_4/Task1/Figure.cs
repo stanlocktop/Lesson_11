@@ -36,7 +36,7 @@ class Circle : Figure
     // Перевизначений метод для виведення інформації про коло
     public override void Display()
     {
-        Console.WriteLine($"Коло розташоване в точці ({X}, {Y}) з радіусом {Radius}");
+        Console.WriteLine($"Коло розташоване в точці ({X}, {Y}) з радіусом {Radius} см.");
     }
 }
 
@@ -57,7 +57,7 @@ class Rectangle : Figure
     // Перевизначений метод для виведення інформації про прямокутник
     public override void Display()
     {
-        Console.WriteLine($"Прямокутник розташований в точці ({X}, {Y}) з шириною {Width} і висотою {Height}");
+        Console.WriteLine($"Прямокутник розташований в точці ({X}, {Y}) з шириною {Width} см і висотою {Height} см.");
         Console.ReadKey();
     }
 }
